@@ -44,7 +44,7 @@ def recommend(book_name):
     similar_books = sorted(list(enumerate(similarity_score[sample_index])),key=lambda x:x[1],reverse=True)[1:9]
 
     data = []
-    for i in similar_books:
+    for j in similar_books:
         item = []
         
         temp_df = books[books['Book-Title']==pt.index[i[0]]]
