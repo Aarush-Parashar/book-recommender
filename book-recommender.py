@@ -66,6 +66,5 @@ pickle.dump(similarity_score,open('similarity_scores.pkl','wb'))
 
 
             
-print(recommend('1984'))
 
 
